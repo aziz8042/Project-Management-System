@@ -1,6 +1,6 @@
 # 📋 WorkClever — Project Management System
 
-A **Trello/Jira-style project management application** with a **.NET 6 Web API** backend and a **React + TypeScript (Vite)** frontend. WorkClever lets teams organize work into projects, boards, and columns, manage tasks with assignees, comments, attachments, custom fields, and task relations — all through a modern drag-and-drop board UI.
+A **Trello/Jira-style project management application** with a **.NET Web API** backend and a **React + TypeScript** frontend. WorkClever lets teams organize work into projects, boards, and columns, manage tasks with assignees, comments, attachments, custom fields, and task relations — all through a modern drag-and-drop board UI.
 
 ---
 
@@ -45,8 +45,8 @@ A **Trello/Jira-style project management application** with a **.NET 6 Web API**
 ## 🛠 Tech Stack
 
 **Backend**
-- ASP.NET Core 6 Web API (C#)
-- Entity Framework Core 6 (SQLite by default; MySQL/Pomelo support included)
+- ASP.NET Core Web API (C#)
+- Entity Framework Core (SQLite by default; MySQL/Pomelo support included)
 - ASP.NET Core Identity (user & role management)
 - JWT Bearer Authentication
 - Newtonsoft.Json / System.Text.Json hybrid serialization
@@ -94,7 +94,7 @@ The two apps communicate purely over HTTP/JSON — the React app is a fully inde
 ```text
 Project-Management-System/
 │
-├── WorkCleverSolution/                   # .NET 6 Web API backend
+├── WorkCleverSolution/                   # .NET 8 Web API backend
 │   ├── Attributes/
 │   │   ├── Authorization/                 # Custom authorization attributes/policies
 │   │   ├── Generic/                       # Generic action/exception filters
@@ -199,7 +199,7 @@ Project-Management-System/
 
 | Tool | Version | Notes |
 |---|---|---|
-| [.NET SDK](https://dotnet.microsoft.com/download) | **6.0.x** (pinned via `global.json`, `6.0.425`) | Required to build/run the API |
+| [.NET SDK](https://dotnet.microsoft.com/download) | **8.0.x** (pinned via `global.json`, `8.0.425`) | Required to build/run the API |
 | [Node.js](https://nodejs.org/) | 18.x or later | Required to run the Vite dev server |
 | [Yarn](https://yarnpkg.com/) | Latest | Project ships with `yarn.lock` |
 | Git | Latest | To clone the repository |
@@ -355,4 +355,4 @@ This project is licensed under the **MIT License** — see `ClientApp/LICENSE.md
 
 ---
 
-<p align="center">Made with ❤️ using .NET 6, React, TypeScript, and Ant Design</p>
+<p align="center">Made with ❤️ by AzizUllah using .NET, React, TypeScript, and Ant Design</p>
